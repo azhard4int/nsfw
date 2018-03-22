@@ -65,6 +65,12 @@ class TestNudeChecker(unittest.TestCase):
             total_score += score
         self.assertEqual(total_score, 0.0)
 
+class TestNudeImageChecker(unittest.TestCase):
+    def setUp(self):
+        # self.setup
+        pass
+
+
 class TestBOG(unittest.TestCase):
     """A test case for the BOG related work. The way we are generating the bag of words for the filters."""
 
